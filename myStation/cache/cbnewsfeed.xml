@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<?xml-stylesheet href="/media/plg_jchoptimize/css/pro-jquery.lazyloadxt.fadein.css" type="text/css"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+	<channel>
+		<title>News</title>
+		<description><![CDATA[]]></description>
+		<link>http://www.joomlapolis.com/news</link>
+		<lastBuildDate>Wed, 14 Dec 2016 12:02:19 +0000</lastBuildDate>
+		<generator>Joomla! - Open Source Content Management</generator>
+		<atom:link rel="self" type="application/rss+xml" href="http://www.joomlapolis.com/news?format=feed&amp;type=rss"/>
+		<language>en-gb</language>
+		<item>
+			<title>More about Joomla 3.6.4 Security Release and CB 2.0 Protection Cloak </title>
+			<link>http://www.joomlapolis.com/news/18707-more-about-joomla-3-6-4-security-release-and-cb-2-0-protection-cloak</link>
+			<guid isPermaLink="true">http://www.joomlapolis.com/news/18707-more-about-joomla-3-6-4-security-release-and-cb-2-0-protection-cloak</guid>
+			<description><![CDATA[<p style="text-align: center;"> <img src="http://www.joomlapolis.com/images/jpnewsletter/jpn201610/cb20j364_580.png" alt="" /></p>
+<p>Joomla has just published a <a href="https://www.joomla.org/announcements/release-news/5679-revised-assessment-of-3-6-4-security-release.html" target="_blank" rel="nofollow">Revised Assessment of 3.6.4 Security Release</a> just a couple of days after the urgent <a href="http://www.joomlapolis.com/index.php?option=com_content&amp;view=article&amp;id=18706&amp;catid=6&amp;Itemid=124">Joomla 3.6.4 Critical Security Release</a> that addresses <strong>2 critical security vulnerabilities</strong>.</p>
+<p>Basically the Joomla Security Strike Team has confirmed the original implications where malicious hackers could exploit the vulnerabilities to create their own administrator account but the team also confirmed that "under certain circumstances" the attackers could alter existing user accounts ( -- yes, even admin accounts).</p>
+<p>The CB Team has also taken a closer look at Community Builder 2.0 installations on Joomla 3 environments and discovered that such sites are actually protected against these nasty Joomla vulnerabilities. By default, all CB 2.0+ installations automatically enable the CB system plugin that redirects Joomla registration and login requests to the equivalent CB requests that are not affected by these Joomla vulnerabilities.</p>
+<p>So, simply put: <strong>all CB 2.0 / Joomla 3.x sites are protected from these Joomla vulnerabilities</strong>.</p>
+<p>Please note that our recommendation is still to upgrade all <a href="http://www.joomlapolis.com/index.php?option=com_content&amp;view=article&amp;id=18706&amp;catid=6&amp;Itemid=124">Joomla sites to Joomla 3.6.4</a> as soon as possible, and additionally rename the Joomla htaccess.txt file (and configure it to your base folder if needed) for added protection.</p>]]></description>
+			<category>News</category>
+			<pubDate>Mon, 31 Oct 2016 00:39:11 +0000</pubDate>
+		</item>
+		<item>
+			<title>Joomla 3.6.4 Critical Security Release - Update Now!</title>
+			<link>http://www.joomlapolis.com/news/18706-joomla-3-6-4-security-release-update-now</link>
+			<guid isPermaLink="true">http://www.joomlapolis.com/news/18706-joomla-3-6-4-security-release-update-now</guid>
+			<description><![CDATA[<p style="text-align: center;"> <img src="http://www.joomlapolis.com/images/jpnewsletter/jpn201610/j364_580.png" alt="" /></p>
+<p>Joomla 3.6.4 has just been released and it fixes <strong>two critical security vulnerabilities</strong> and a two-factor authentication bug.</p>
+<p>This is a very important release and all Joomla 3.4.4 to 3.6.3 sites need to be quickly updated to this new release.</p>
+<p>You can <a href="https://www.joomla.org/announcements/release-news/5678-joomla-3-6-4-released.html" target="_blank" rel="nofollow">read the full Joomla 3.6.4 announcement</a> for more details, but to make things super clear here is a list of recommended actions depending on your installed version:</p>
+<ul>
+<li>All sites with <strong>Joomla 3.4.4 through Joomla 3.6.3</strong> must <strong>update to Joomla 3.6.4 <em>now</em></strong> - this is extremely important as the found vulnerabilities let hackers create accounts on your website and then to promote them to administrator (but not super-administrator ones)</li>
+<li>All sites with <strong>Joomla 3.x less than 3.4.4</strong> should <strong>upgrade as soon as possible</strong> to Joomla 3.6.4. These sites are not affected by the two critical vulnerabilities, but there are many other know issues that have already been fixed</li>
+<li>All <strong>Joomla 2.5.x</strong> sites (1.0-2.5 are not affected by these 2 vulnerabilities, but they are by other known ones) should plan to upgrade to Joomla 3.6.4. If not possible soon, they should at least by now have <strong>updated to the unofficially security-maintained</strong> <a href="https://github.com/PhilETaylor/Joomla2.5.999" target="_blank" rel="nofollow">Joomla &quot;2.5.999&quot;</a> <strong>version</strong> which includes fixes only for high-level security issues (download zip button at top right) and follow that project on github, while planing to plan an upgrade to latest Joomla.</li>
+</ul>
+<p>And, as always, make a full backup of your website before you attempt any upgrade.</p>
+<p>Community Builder 2.0.15 and all our latest CB add-ons versions are running fine on Joomla 3.6.4 according to our tests.</p>
+<p>Beat, member of both CB Team and of the Joomla Security Strike Team (JSST), insists on the urgency and the importance of this Joomla 3.6.4 upgrade: <strong>Stop doing what you are doing and Upgrade Now</strong>. If you can't, then take an off-site archive-backup of your site <strong>Now</strong>. Only the latest versions of Joomla and of all your extensions and add-ons, which are the only ones maintained are considered safe at all times.</p>
+<p>Keep your <a href="http://www.joomlapolis.com//profile/userprofile">Joomlapolis membership</a> active and your sites up to date at all times!</p>
+<p>Some hosters who care for Joomla Security have already implemented WAF modsecurity rules to protect their customers. <a href="http://www.joomlapolis.com/index.php?option=com_sppagebuilder&view=page&id=16&Itemid=181">Joomlapolis Web Hosting Services</a> have also done so, even before the 3.6.4 release!</p>
+<p> </p>]]></description>
+			<category>News</category>
+			<pubDate>Wed, 26 Oct 2016 00:40:30 +0000</pubDate>
+		</item>
+		<item>
+			<title>CB Gallery 2.0 released and full of power</title>
+			<link>http://www.joomlapolis.com/news/18700-cb-gallery-2-0-released-and-full-of-power</link>
+			<guid isPermaLink="true">http://www.joomlapolis.com/news/18700-cb-gallery-2-0-released-and-full-of-power</guid>
+			<description><![CDATA[<p style="text-align: center;"> <img src="http://www.joomlapolis.com/images/stories/blogs/krileon/cbgallery/gallery_upgrade_008.png" alt="" width="604" height="582" /></p>
+<p style="text-align: center;"><a href="http://www.joomlapolis.com/index.php?option=com_sppagebuilder&amp;view=page&amp;id=33&amp;Itemid=336">CB Gallery</a> is here and <strong>extremely powerfull</strong> !</p>
+<p>Kyle has been <a href="http://www.joomlapolis.com/blog/kyle" rel="alternate">blogging about it</a>, designng and coding it, and now CB Gallery 2.0 nicknamed "<strong>Galleries Galleries Everywhere"</strong> is <a href="http://www.joomlapolis.com/index.php?option=com_sppagebuilder&amp;view=page&amp;id=33&amp;Itemid=336" rel="alternate">ready for download</a> by all <a href="http://www.joomlapolis.com/index.php?option=com_sppagebuilder&amp;view=page&amp;id=6&amp;Itemid=134" rel="alternate">paid members</a>.</p>
+<p>This is a complete rewrite with <strong>many great new features</strong> that will make your community website users very <strong>happy and excited</strong> with the possibilities.<br />You can experience the new CB Gallery on our <a href="http://demo.cbdemosites.com/" target="_blank" rel="alternate">demo site</a> and see the many administrative and user facing options.</p>
+<p>Here is a list of the main features in CB Gallery 2.0:</p>
+<ul>
+<li>Users can <strong>upload multiple files</strong> at the same time and then provide titles and descriptions (yup, just like facebook does)</li>
+<li>All <strong>media types</strong> are supported (photo, audio, video) as well as file uploads (you can provide filename extension list)</li>
+<li>Users can create <strong>unlimited albums</strong> to better organize their uploads</li>
+<li>Media files can be <strong>uploaded or linked</strong> (configration parameter)</li>
+<li><strong>Item quotas</strong> can be set for each media type globally or individually (for specific users)</li>
+<li><strong>Moderator approvals</strong> can be enabled for all media types</li>
+<li><strong>Gallery playbacks</strong> are now using modal popup</li>
+<li>New <strong>CB Gallery module</strong> lets you display gallery albums, media types, gallery items from specific users (new asset concept) or from all users</li>
+<li>Item <strong>downloading can be turned off</strong> in gallery and in module</li>
+<li>New CB Gallery bot lets you <strong>put any gallery album or item directly in your Joomla content</strong> (articles and modules) and even lets your users create new gallery albums or upload new media directly from article!</li>
+<li><strong>Captcha integration for extra security</strong> when uploading new items (requires latest <a href="http://www.joomlapolis.com/index.php?option=com_sppagebuilder&amp;view=page&amp;id=34&amp;Itemid=337">CB AntiSpam</a> plugin)</li>
+<li><strong>Gallery activity</strong> recorded for activity stream (<a href="http://www.joomlapolis.com/index.php?option=com_sppagebuilder&amp;view=page&amp;id=9&amp;Itemid=385">CB Activity</a> and <a href="http://www.joomlapolis.com/index.php?option=com_sppagebuilder&amp;view=page&amp;id=25&amp;Itemid=199">CB Auto Actions</a> required)</li>
+<li>Create <strong>direct Joomla menu links</strong> to specific albums or items</li>
+<li>New administrative area lets you quickly <strong>see who has uploaded what</strong> and all created albums (see this on our <a href="http://demo.cbdemosites.com/" target="_blank" rel="alternate">demo site</a>)</li>
+</ul>
+<p>There are many more built-in features that you can explore on our <a href="http://demo.cbdemosites.com/" target="_blank" rel="alternate">demo site</a> !</p>]]></description>
+			<category>News</category>
+			<pubDate>Mon, 05 Sep 2016 20:44:19 +0000</pubDate>
+		</item>
+		<item>
+			<title>CB 2.0.15 released!</title>
+			<link>http://www.joomlapolis.com/news/18698-cb-2-0-15-released</link>
+			<guid isPermaLink="true">http://www.joomlapolis.com/news/18698-cb-2-0-15-released</guid>
+			<description><![CDATA[<p style="text-align: center;"><img src="http://www.joomlapolis.com/images/jpnewsletter/jpn201608/cb2015b_580.png" alt="" /></p>
+<p style="text-align: center;"><a href="http://www.joomlapolis.com/index.php?option=com_sppagebuilder&amp;view=page&amp;id=3&amp;Itemid=128">Community Builder</a> is here with <strong>9 new features</strong> and <strong>15 bug fixes</strong><br /><a href="http://www.joomlapolis.com/index.php?option=com_sppagebuilder&amp;view=page&amp;id=3&amp;Itemid=128" rel="alternate">Download it now</a> - it's <strong>free</strong> and <strong>super stable </strong>and Joomla 3.6 ready!</p>
+<p><strong>Community Builder 2.0.15</strong> is here and has 9 new features and 15 bug fixes.</p>
+<p>The key features include:</p>
+<ul>
+<li><strong>Profile editing tab ordering</strong> now its own ordering parameter</li>
+<li><strong>Internal URL</strong> support for <strong>direct tab focus</strong> for viewing or editing</li>
+<li><strong>Forgot login and sign-up links</strong> can now be <strong>rendered as buttons</strong> in CB Login module</li>
+</ul>
+<p>The full list of features and bug fixes is available in our discussion thread below.</p>
+<p>Community Builder continues to be one of the most well maintained projects in the Joomla universe. We continuously release free nightly builds when we fix bugs of add new features. This way our huge community is able to test these changes and give quick feedback. This helps the project produce robust bug free code for the millions of Joomla websites using Community Builder.</p>
+<p>All of this is made possible with the financial support provided by <strong>paid members</strong>. <a href="http://www.joomlapolis.com/memberships" rel="alternate">Paid Membership </a>offers great benefits with many powerful add-ons and fantastic forum driven same/next business day responses. A big <strong>Thank You</strong> to all our paid members and to all contributors of CB!</p>
+<p>CB 2.0+ websites can be upgraded to latest CB 2.0.15 <strong>using the built-in Joomla upgrader</strong> or with a <strong>simple install over</strong> (precautionary backup always recommended) as all previous settings are kept.</p>]]></description>
+			<category>News</category>
+			<pubDate>Wed, 24 Aug 2016 00:07:51 +0000</pubDate>
+		</item>
+		<item>
+			<title>Joomla 3.6.2 Released</title>
+			<link>http://www.joomlapolis.com/news/18695-joomla-3-6-2-released</link>
+			<guid isPermaLink="true">http://www.joomlapolis.com/news/18695-joomla-3-6-2-released</guid>
+			<description><![CDATA[<div style="text-align: center;"><img src="http://www.joomlapolis.com/images/jpnewsletter/jpn201608/joomla_3_6_2_teaser.jpg" alt="" /><br /><br /><a href="https://www.joomla.org/announcements/release-news/5667-joomla-3-6-2-released.html" target="_blank" rel="nofollow">Joomla 3.6.2 is here</a> and works fine with <a href="http://www.joomlapolis.com/index.php?option=com_sppagebuilder&amp;view=page&amp;id=3&amp;Itemid=128">Community Builder</a></div>
+<p>Almost one day after a <a href="https://www.joomla.org/announcements/release-news/5665-joomla-3-6-1-released.html" target="_blank" rel="nofollow">Joomla 3.6.1 security release</a>, the Joomla project released <a href="https://www.joomla.org/announcements/release-news/5667-joomla-3-6-2-released.html" target="_blank" rel="nofollow">Joomla 3.6.2</a> as a quick follow-up bug fix release.<br /><br />The combined releases address <a href="https://github.com/joomla/joomla-cms/issues?q=milestone%3A%22Joomla+3.6.1%22+is%3Aclosed" target="_blank" rel="nofollow">nearly 150 bug fixes</a> and some <a href="https://www.joomla.org/announcements/release-news/5665-joomla-3-6-1-released.html" target="_blank" rel="nofollow">medium/low priority security issues</a>.</p>
+<p><strong>Important: Before upgrading to Joomla 3.6.2 make sure that you first upgrade all your components, including core "Joomla! Update Component Update" component</strong>. To do so:</p>
+<ol>
+<li>go to menu: Extensions / Manage / Upgrade</li>
+<li>Click "Find updates" button</li>
+<li>Select your extensions to upgrade, but at least "Joomla! Update Component Update" (its latest version at press time is 3.6.1)</li>
+<li>Click "Upgrade" button</li>
+</ol>
+<p>Once you have upgraded the extensions, you can safely upgrade Joomla to 3.6.2.</p>
+<p>In the seldom case where the last stage of the Joomla upgrade (database upgrade) would fail, no worries, go to menu: Etensions/ Manage / Database, then click the Fix button.</p>
+<p>In the very seldom case where you are missing extension installation methods tabs, go to menu Extensions / Manage / Discover then click "Discover" button, select the installer plugins and click the "Install" button.</p>
+<p>We have been testing Joomla 3.6.2 with our latest Community Builder 2.0.14 and everything works great!<br />As always, we recomend to upgrade your websites on a cloned environment and test everything before you take a full backup and apply Joomla upgrade on your productions sites.<br /><br />A great resource you can follow is the <a href="https://docs.joomla.org/Category:Version_3.6.2_FAQ" target="_blank" rel="nofollow">Joomla 3.6.2 FAQ</a> article that contains all the latest findings / issues identified by the Joomla project concerning this new release.</p>
+<p> </p>
+<p>{kunena_discuss:234349}</p>]]></description>
+			<category>News</category>
+			<pubDate>Thu, 04 Aug 2016 23:47:23 +0000</pubDate>
+		</item>
+		<item>
+			<title>New downloads manager: CB Package Builder 5.1 with frontend management</title>
+			<link>http://www.joomlapolis.com/news/18693-cb-package-builder-5-1-released-with-frontend-management</link>
+			<guid isPermaLink="true">http://www.joomlapolis.com/news/18693-cb-package-builder-5-1-released-with-frontend-management</guid>
+			<description><![CDATA[<div style="text-align: center;"><img class="img-thumbnail" src="http://www.joomlapolis.com/images/products/cbpackagebuilder/sample/cbpackager-fe-new-buttons.png" alt="" /><br /><a href="http://www.joomlapolis.com/index.php?option=com_sppagebuilder&amp;view=page&amp;id=61&amp;Itemid=201">CB Package Builder</a> with <strong>frontend management</strong><br /><br /></div>
+<p>This is by far the <strong>best download manager</strong> for Joomla!</p>
+<p>We have developed and used CB Package Builder internally since 3 years for your packages downloads here on Joomlapolis. We are now using it for all your downloads, including all PDF files, showing latest version numbers in Joomla content and showing releases history. As it has become an awesome general-purpose downloads manager, we are now releasing it in its latest version 5.1.</p>
+<p>CB Package builder has many features that you can discover in its <a href="http://www.joomlapolis.com/index.php?option=com_sppagebuilder&amp;view=page&amp;id=61&amp;Itemid=201">product page</a>.</p>
+<p>Version 5.1 has many awesome new features that let you create and manage your membership downloads.</p>
+<p>Here is a list of key features that you can actually experience - first hand - on Joomlapols and <a href="http://demo.cbdemosites.com/" target="_blank" rel="alternate">our demo site</a>:</p>
+<ul>
+<li>Chose from <strong>12 package types</strong> to fine-tune your user's download experience (Package, Library, Component, Plugin, Module. Language, Template, CB Plugin, Query, Script, Override, Custom).</li>
+<li>Use optional <strong>package sub-types to categorize packages</strong> when presented to users (e.g., see <a href="http://www.joomlapolis.com/downloads/free" rel="alternate">Free sub-types</a> on our download page).</li>
+<li>Configure <strong>package version extraction</strong> directly from package filename with previous versions download support (e.g. filefolder/cb200-Primer_*.pdf - the * area will be used to extract version - see our <a href="http://www.joomlapolis.com/downloads/free" rel="alternate">Community Builder download</a> version dropdown selection for example).</li>
+<li>Create presets comprized of multiple package that your users can download and install on their Joomla site as a single Joomla extension install (try this out on <a href="http://demo.cbdemosites.com/" target="_blank" rel="alternate">our demo site</a> where you can login as an administrator)</li>
+<li>Let your authorized users maintain or add new packages from frontend (without need for administrative area login privileges - experience this also on our demo site and see relevant screenshots included further down).</li>
+<li>Drag and drop file uploading and frontend version deletion (experience this on demo site and check out screenshot below)</li>
+</ul>
+<p> </p>
+<p>These are just some of the features avaiable in our latest CB Package Builder which comes with its own Joomla module, Joomla plugin and CB Paid Subscription integration plugin (to require active subscription for package download).<br /><br />Here are some additional screenshots illustrating some of the previously mentioned features that - once again - <strong>you can experience</strong> first hand on <a href="http://demo.cbdemosites.com/" target="_blank" rel="alternate">our demo site</a> and <a href="http://www.joomlapolis.com/forum/6-news-and-publicity/234225-new-downloads-manager-cb-package-builder-5-1-with-frontend-management" rel="alternate">discuss this exciting new release on our forums</a>!</p>
+<p>CB Package builder is available to all <a href="http://www.joomlapolis.com/index.php?option=com_sppagebuilder&amp;view=page&amp;id=1&amp;Itemid=364">Developer Members</a> or as a <a href="http://www.joomlapolis.com/index.php?option=com_sppagebuilder&amp;view=page&amp;id=61&amp;Itemid=201">single-item purchase</a>.</p>
+<p><br /><br /></p>
+<div class="caption" style="text-align: center;"><img class="img-thumbnail" src="http://www.joomlapolis.com/images/products/cbpackagebuilder/sample/cbpackager-fe-editing-access.png" alt="" /><br /><br />Frontend editing of existing packages<br /><br /><img class="img-thumbnail" src="http://www.joomlapolis.com/images/products/cbpackagebuilder/sample/cbpackager-fe-version-upload-delete.png" alt="" /><br />Frontend drag and drop new version uploading or old version deleting</div>
+<p>{kunena_discuss:234225}</p>]]></description>
+			<category>News</category>
+			<pubDate>Tue, 19 Jul 2016 23:26:55 +0000</pubDate>
+		</item>
+		<item>
+			<title>Joomla 3.6 Released</title>
+			<link>http://www.joomlapolis.com/news/18689-joomla-3-6-released</link>
+			<guid isPermaLink="true">http://www.joomlapolis.com/news/18689-joomla-3-6-released</guid>
+			<description><![CDATA[<div style="text-align: center;"><img src="http://www.joomlapolis.com/images/jpnewsletter/jpn201607/joomla36_580.png" alt="" /><br /><br /><a href="https://www.joomla.org/announcements/release-news/5664-joomla-3-6-is-here.html" target="_blank" rel="nofollow">Joomla 3.6 is here</a> and works fine with <a href="http://www.joomlapolis.com/index.php?option=com_sppagebuilder&amp;view=page&amp;id=3&amp;Itemid=128">Community Builder</a> !<br />-&gt; See our <a href="http://www.joomlapolis.com/index.php?option=com_content&amp;view=article&amp;id=18690&amp;catid=6&amp;Itemid=124">Joomla 3.6.0 FAQ</a> for more info and known issues &lt;-<br /><br /></div>
+<p>After 2 release candidate rounds - that the CB Team has been testing against our latest Community Builder 2.0.14 - the Joomla project has released its <a href="https://www.joomla.org/announcements/release-news/5664-joomla-3-6-is-here.html" target="_blank" rel="nofollow">version 3.6 stable</a> package.</p>
+<p>This new Joomla release has lots of bug fixes and quite a few - 400 !!! - improvements that make everyone's day to day Joomla usage easier. <br />Here are siome of the highlighted features:</p>
+<ul>
+<li>Joomla update can now do a reinstall for you reverting back to default code.</li>
+<li>Usability improvements that help you find things easier and get things done quicker with dropdown task execution.</li>
+<li>New Sub form field function for developers to take advantage of.  Developers should read this as nested forms and enhanced repeatable fields.</li>
+<li>On the fly category creation will make content editors very happy as they could just create a new item and a new category in the same process.</li>
+<li>Menu type ACL gives even more control to fine-tune permissions on backend menus.</li>
+<li>New option to show all items from all menus gives you a quick overview of what is displayed where on your website. It has never been easier to spot duplicated links, missing menu items or just get an overview of every menu on your site.</li>
+</ul>
+<p>The Joomla team has made a great <a href="https://www.joomla.org/3/" target="_blank" rel="nofollow">Joomla 3.6 microsite</a> highlighting all the main features and even more items can be seen in the <a href="https://docs.joomla.org/Joomla_3_FAQ" target="_blank" rel="nofollow">Joomla 3 FAQ</a> as well as a more technical list on the project's <a href="https://github.com/joomla/joomla-cms/issues?q=milestone%3A%22Joomla+3.6.0%22+" target="_blank" rel="nofollow">GitHub repository</a>. So, there are many features for you to explore and remember that Community Builder 2.0.14 works fine with this new Joomla release!</p>
+<p>{kunena_discuss:234195}</p>]]></description>
+			<category>News</category>
+			<pubDate>Tue, 12 Jul 2016 20:31:08 +0000</pubDate>
+		</item>
+		<item>
+			<title>Our Demo Site is up and running</title>
+			<link>http://www.joomlapolis.com/news/18589-our-demo-site-is-up-and-running</link>
+			<guid isPermaLink="true">http://www.joomlapolis.com/news/18589-our-demo-site-is-up-and-running</guid>
+			<description><![CDATA[<p style="text-align: center;"><img src="http://www.joomlapolis.com/images/jpnewsletter/jpn201606/cbdemosite3_650.png" alt="" /></p>
+<p style="text-align: center;"><a title="Joomlapokus Demo Site" href="http://demo.cbdemosites.com/" target="_blank" rel="alternate">Visit our demo site</a> and <strong>see our products in action!</strong></p>
+<p>We are very proud and excited to complement our <a href="http://www.joomlapolis.com/index.php?option=com_content&amp;view=article&amp;id=18552&amp;catid=6&amp;Itemid=124">New Joomlapolis website</a> with a <strong>fully functional</strong> and <strong>fully loaded</strong> Joomlapolis <a title="Joomlapolis Demo Site" href="http://demo.cbdemosites.com/" target="_blank" rel="alternate">demo site</a>.</p>
+<p>The demo site gives you a <strong>great look</strong> at just some of the <strong>many features</strong> of <a href="http://www.joomlapolis.com/index.php?option=com_sppagebuilder&amp;view=page&amp;id=3&amp;Itemid=128">Community Builder</a> and our <a href="http://www.joomlapolis.com/index.php?option=com_sppagebuilder&amp;view=page&amp;id=8&amp;Itemid=133">Add-ons</a>.</p>
+<p>So, <a href="http://demo.cbdemosites.com/" target="_blank" rel="alternate">visit our demo site</a>, select the <strong>Community Builder</strong> menu feature item or the <strong>Add-ons</strong> menu item you are interested in. You can also use the direct login buttons to explore both frontend functionality and administrative area configurations.</p>
+<p>The demo site is periodically reset to its initial state, so don't hesitate to experiment with settings and additional functionality of our installed products.</p>
+<p>{kunena_discuss:234020}</p>]]></description>
+			<category>News</category>
+			<pubDate>Tue, 21 Jun 2016 21:32:59 +0000</pubDate>
+		</item>
+		<item>
+			<title>New Joomlapolis Rocks!</title>
+			<link>http://www.joomlapolis.com/news/18552-new-joomlapolis-rocks</link>
+			<guid isPermaLink="true">http://www.joomlapolis.com/news/18552-new-joomlapolis-rocks</guid>
+			<description><![CDATA[<div style="text-align: center;"><img src="http://www.joomlapolis.com/images/jpnewsletter/jpn201606/JPNEWHP_580.gif" alt="" /></div>
+<p><br /><strong>This website was designed for you and we are excited about it !</strong><br /><br />Whether you are visiting Joomlapolis for the first time or you are a frequent community member, you will see and experience many improvements designed to help you get the most bang for your time and your money.<br /><br />Designed from scratch, our <strong>new Joomlapolis website</strong> is powered by the latest and greatest Joomla and <a title="All Community Builder add-ons" href="http://www.joomlapolis.com/addons" rel="alternate">Community Builder add-ons</a>. The new environment will help you easily find the product you are looking for and quickly understand what its benefits are and how you can get it. If you are already a customer, information about latest releases and new downloads available are at your fingertips. Special blog feeds from the experts, documentation areas and support discussions are here to keep you connected to the largest Joomla community in the world.<br /><br />The website is rocking with <a title="Joomla 3" href="https://www.joomla.org/3/" rel="nofollow">Joomla 3.5.1</a>, <a href="http://www.joomlapolis.com/community-builder" rel="alternate">Community Builder 2.0.14</a>, <a href="http://www.joomlapolis.com/addons/cb-paid-subscriptions" rel="alternate">CB Paid Subscriptions 4.1</a>, <a title="Kunena 5.0 RC1" href="https://www.kunena.org/blog/165-kunena-5-0-rc1-released" rel="nofollow">Kunena 5.0</a>, <a title="uddeIM 3.8" href="https://www.slabihoud.de/software/id4001.htm" rel="alternate">uddeIM 3.9</a>, <a href="http://www.joomlapolis.com/addons/cb-privacy" rel="alternate">CB Privacy 4.0.3</a>, <a href="http://www.joomlapolis.com/addons/cb-antispam" rel="alternate">CB AntiSpam 2.0.0</a>, <a href="http://www.joomlapolis.com/addons/cb-gallery" rel="alternate">CB Gallery 1.0.6</a>, <a href="http://www.joomlapolis.com/addons/cb-auto-actions" rel="alternate">CB Auto Actions 6.3.5</a>, <a href="http://www.joomlapolis.com/addons/cb-conditional" rel="alternate">CB Conditionals 4.0.7</a> and many more of our <a href="http://www.joomlapolis.com/addons" rel="alternate">great add-ons </a>!<br /><br />We are especially excited to announce the brand new <a href="http://www.joomlapolis.com/addons/cb-package-builder" rel="alternate">CB Package Builder 5.0.0</a> - a <strong>revolutionary download manager</strong> solution for Joomla that also has <strong>built-in integration</strong> for our <a href="http://www.joomlapolis.com/addons/cb-paid-subscriptions" rel="alternate">CB Paid Subscriptions</a> product. Our <a href="http://www.joomlapolis.com/downloads" rel="alternate">Joomlapolis Downloads section</a> is powered by CB Package Builder (yes, we do eat our own dog food) - so go ahead and <a href="http://www.joomlapolis.com/downloads" rel="alternate">check it out</a> !<br /><br />The new <strong>Download History</strong> tab you will see on your new <a href="http://www.joomlapolis.com/my-profile/userprofile" rel="alternate">user profile</a> page is another <strong>CB Package Builder feature</strong> that shows you exactly what you downloaded from Joomlapolis and when.<br /><br />We have also provisioned a News Blog area for CB Core Team members to better communicate with the huge Community Builder community. And we will be using it often -- so stay tuned and subscribe to the RSS feeds.<br /><br />Another new concept we have designed for you and we will be activating is: the <strong>new releases feed</strong> (located under the News menu). Here we will push a brief no nonsence message everytime a new release (or new nightly build) is available for any of our many products.</p>
+<p>{kunena_discuss:233942}</p>]]></description>
+			<category>News</category>
+			<pubDate>Tue, 14 Jun 2016 08:05:41 +0000</pubDate>
+		</item>
+		<item>
+			<title>CBSubs GPL 4.1 with Timed content, Taxes inclusive price display, and plan substitutions usable anywhere</title>
+			<link>http://www.joomlapolis.com/news/18550-cbsubs-gpl-4-1-with-timed-content-taxes-inclusive-price-display-and-plan-substitutions-usable-anywhere</link>
+			<guid isPermaLink="true">http://www.joomlapolis.com/news/18550-cbsubs-gpl-4-1-with-timed-content-taxes-inclusive-price-display-and-plan-substitutions-usable-anywhere</guid>
+			<description><![CDATA[<p>[cbsubs:ignore]</p>
+<p style="text-align: center;"><img src="http://www.joomlapolis.com/images/jpnewsletter/jpn201605/cbsubs41_550.gif" alt="cbsubs41 550" width="550" height="198" /></p>
+<p style="text-align: center;">CBSubs GPL Paid Subscriptions Membership 4.1 released with <strong>9 new features</strong> and 7 bug fixes.<br />Up to date paid members can download from <a href="http://www.joomlapolis.com/index.php?option=com_docman&amp;task=doc_details&amp;gid=839">here</a></p>
+<p>The punchline for this release is -- "<strong>Content Control Everywhere</strong>".</p>
+<p>The new features give you <strong>fantastic granular control</strong> to <strong>display any plan description or pricing data</strong> in any Joomla content area (articles or modules) and even lets you specify <strong>when specific content is to appear (or disappear)</strong> for your <strong>paid</strong> subscribers. Well that's the punchline, but there are <strong>many more features</strong> and CBSubs default and rounded templates are now fully responsive -- so <strong>everything looks great on tablets and smartphones</strong>!</p>
+<p>The major new features included in this release are:</p>
+<ul>
+<li>
+<p><strong>-- Decide when your paid subscribers see the content you want them to see --</strong><br /><br />(2606) - Timed Release content support using new [cbsubs:if since] tags <br />Lets you filter any Joomla content based on time criteria against subscription baseline. <br /><br />Example: <code><br />[cbsubs:if plan="1" status="A" since&gt;="1 week" and plan="1" status="A" since&lt;="2 week"]</code><br /><code></code><code>        This only shows up between 1st and 2nd week of your subscription</code><br /><code></code><code>[/cbsubs:if]</code></p>
+</li>
+<li>
+<p><strong>-- Optionally include tax costs in your plan price displays --<br /><br /></strong>(3732) Tax inclusive plan price display options<br />Display plan price that includes default tax calculation.<br />This is off by default, but you can enable it on a plan by plan basis<br />default tax rate setting to be used (based on default customer location).</p>
+</li>
+<li><strong><em>-- Personalize your marketing by embedding plan or subscription data in your content --</em><br /><br /></strong>(5953) Display plan or subscription content in Joomla content<br />Show plan or subscription specific data in your Joomla or<br />CB content areas (articles, modules, fields).<br /><br />Example:<code><br />Upgrade to our plan [cbsubs:plans plan="1" output="name" /]<br />for just [cbsubs:plans plan="1" output="price" /] now!<br /><br /></code></li>
+<li><strong>-- Even more tools to help you target active and even expired subscribers --<em><br /></em><br /></strong>(5954) Condition Joomla content depending on subscriptions<br />You can now embed [cbsubs:if plan] substitutions in your Joomla content to show content based on subscription.<br /><br />Example:<code><br />[cbsubs:if plan="1" status="X"]Your subscription has expired,<br />please renew today at our discounted price[/cbsubs:if]<br /><br /></code></li>
+<li><strong>-- Make things easier and faster for people to pay you --<br /><br /></strong>(5934) New URL to take potential purchaser directly to basket<br />This new feature gives you a different URL that bypasses the plan selection process <br />taking purchaser directly to basket ready for checkout.<br /><br /></li>
+<li><strong>-- Sales process is now awesome looking on any tablet or smartphone device --<br /><br /></strong>(4987) Updated default and rounded template markup to Bootstrap 3<br />The default and Rounded templates have been updated to support Bootstrap 3,<br />so frontend CBSubs displays are now fully responsive and look great<br />on all viewing devices (tablets and smartphones).<br /><br /></li>
+<li><strong>-- More controls for you to keep your subscribers motivated to follow your customer lifecycle -- <br /><br /></strong>(5912) New subscription plan time sensitive settings to disallow reactivation of expired or cancelled subscription<br />You can now configure a plan to not allow reactivation once it has expired<br />or has been cancelled.<br />Setting also lets you configure the "disallowing" based on duration since expiration<br />or the duration before expiration.</li>
+</ul>
+<p>{kunena_discuss:233793}</p>
+<p>[/cbsubs:ignore]</p>]]></description>
+			<category>News</category>
+			<pubDate>Tue, 24 May 2016 22:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>A website story - part 3</title>
+			<link>http://www.joomlapolis.com/news/18549-a-website-story-part-3</link>
+			<guid isPermaLink="true">http://www.joomlapolis.com/news/18549-a-website-story-part-3</guid>
+			<description><![CDATA[<p><img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.joomlapolis.com/images/jpnewsletter/jpn201605/wap3.gif" alt="wap3" width="550" height="379" /></p>
+<p>(continued from <a href="http://www.joomlapolis.com/index.php?option=com_content&amp;view=article&amp;id=18548:a-website-story-part-2&amp;catid=6:news&amp;Itemid=19">part 2</a>)</p>
+<p>You are really happy with the results so far.</p>
+<p>Your site is up, users are <strong>joining</strong> and searching your <strong>user list pages</strong> and <strong>making friends with each other</strong>. You are able to <strong>send off personalized email messages</strong> using the <strong>CB Mass Mailing</strong> functionality located in the CB User management page.</p>
+<p>But you realize that you need to help people express themselves and make noise on your website.</p>
+<p>Back to the <a href="http://www.joomlapolis.com/component/docman/doc_details/801-cb-20-primer-book-105">CB Primer Book</a> you go and find <strong>Chapter 8 Working with Plugins</strong> and start reading. Aha, <strong>CB Blogs</strong> looks very promising. What if you setup and allow your users to blog straight from their user profile page? And how about storing the blogs as Joomla articles so your can use the Joomla content management functionality to show off the blogs outside the profile pages also. Wow, there is even another great video tutorial that illustrates this - <a href="https://www.youtube.com/watch?v=iq8G4m3Yvek&amp;list=PLp0puRITgC7PuyzPsMUECDI46VE7IFSAX&amp;index=16" target="_blank">CB Blogs Plugin Joomla Mode</a>.</p>
+<p>You quickly get this new functionality working on your website and once again you create a new Joomla tutorial article explaing how your users can create their own blogs. Of course you once again use the CB Mass Mailing functionality to let your existing users know about this new functionality you added.</p>
+<p>{kunena_discuss:233604}</p>
+<p> </p>]]></description>
+			<category>News</category>
+			<pubDate>Sun, 01 May 2016 22:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>A website story - part 2</title>
+			<link>http://www.joomlapolis.com/news/18548-a-website-story-part-2</link>
+			<guid isPermaLink="true">http://www.joomlapolis.com/news/18548-a-website-story-part-2</guid>
+			<description><![CDATA[<p><img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.joomlapolis.com/images/jpnewsletter/jpn201604/story2.gif" alt="story2" width="550" height="379" /></p>
+<p>Continuing <a href="http://www.joomlapolis.com/index.php?option=com_content&amp;view=article&amp;id=18545:a-website-story-part-1&amp;catid=6:news&amp;Itemid=19">where we left off</a>, you have your Joomla website in place - with great content -  and <a href="http://www.joomlapolis.com/index.php?option=com_content&amp;view=article&amp;id=12&amp;Itemid=2">Community Builder</a> configured to handle the registration process and the profile pages of your community. All your members get their own profile page where they can update their data when needed. You have also created a number of <strong>user lists</strong> with <strong>searching</strong> enabled to let your users find others with similar interests.</p>
+<p>From experience with other social netwrking sites (aka Facebook) you know that people should be able to hook-up with each other (social friends).</p>
+<p>Back to the <a href="http://www.joomlapolis.com/component/docman/doc_details/801-cb-20-primer-book-105">CB Primer Book</a> you go and find <strong>Chapter 9 Working with Connections</strong> and start reading. Aha, <strong>Connections</strong> is the term used to describe this user hook-up. You read the chapter and <a href="https://www.youtube.com/watch?v=PJt42TXq_GM&amp;list=PLp0puRITgC7PuyzPsMUECDI46VE7IFSAX&amp;index=24" target="_blank">watch the great #24 tutorial</a> - and you quickly get this functionality configured on your site. You notice that connections can be bidirectional or unidirectional - but for know you decide to keep things simple. Bidirectional it is - if I am connected to someone, that someone is also connected with me. You have a test user configured and you establish a connection to test out the process. Email notification is sent, user receiving the connection request approves it and the connection is set and recorded in the new Connections tab.</p>
+<p> <img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.joomlapolis.com/images/jpnewsletter/jpn201604/connections.gif" alt="connections" width="550" height="504" /></p>
+<p><strong>Wow, that's cool you say.</strong></p>
+<p>As you were reading the <strong>CB Primer Book</strong>, you noticed that in<strong> Chapter 8 Working with Plugins</strong> there is a discussion about integration with a Private Messaging extension called uddeIM. "Hmm, why not you say .." and quickly read up on it and download it and get it configured and integrated. Another cool video - <a href="https://www.youtube.com/watch?v=PE_582tPBO4&amp;index=21&amp;list=PLp0puRITgC7PuyzPsMUECDI46VE7IFSAX" target="_blank">tutorial #21</a> - helps you in this process and you also quickly add new<strong> messages notification</strong> to your CB Login module.</p>
+<p>Now you have a better way for your users to <strong>communicate</strong> with each other - <strong>directly on your site</strong>.</p>
+<p>This is cool you think. I hope users can quickly take advantage of this new functionality. "Hmm, maybe I should create a new article describing Connections and Private Messaging". Yup, that is the way to go. So, back to Joomla to create new content. Great screenshots are taken and embedded in your awesome tutorials - this way your users will not have to experiment. All they need to do is read the new tutorials.</p>
+<p>You scratch your head and ask yourself - "How can I let people now about this functionality and the great tutorials I created?"</p>
+<p>Back to the <strong>CB Primer Book</strong> and to <strong>Chapter 7 Working with CB User Management</strong> where you find the <strong>Mass Mailer</strong> functionality. And of course you find another great <a href="https://www.youtube.com/watch?v=9MK-gYG4Deo&amp;index=38&amp;list=PLp0puRITgC7PuyzPsMUECDI46VE7IFSAX" target="_blank">video tutorial #38</a> to guide you through this task. This is exactly what I need you think - wow these guys have thought of everything!</p>
+<p>So you quickly <strong>create your mass mailing message</strong> - add links to your new Joomla tutorial articles and <strong>bombs away</strong>!</p>
+<p>And suddenly you realize: "<strong>Wow, and all of this is still FREE!!!</strong>".</p>
+<p>{kunena_discuss:233484}</p>
+<p> </p>]]></description>
+			<category>News</category>
+			<pubDate>Sun, 17 Apr 2016 22:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>New CB Replacer 1.0 Released</title>
+			<link>http://www.joomlapolis.com/news/18547-new-cb-replacer-1-0-released</link>
+			<guid isPermaLink="true">http://www.joomlapolis.com/news/18547-new-cb-replacer-1-0-released</guid>
+			<description><![CDATA[<p><a href="http://www.joomlapolis.com/index.php?option=com_docman&amp;task=doc_details&amp;gid=833"><img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.joomlapolis.com/images/jpnewsletter/jpn201604/cbreplacer10.gif" alt="cbreplacer10" width="550" height="319" /></a></p>
+<p style="text-align: center;">The <strong>New CB Replacer 1.0</strong> release can be <a href="http://www.joomlapolis.com/index.php?option=com_docman&amp;task=doc_details&amp;gid=833">downloaded</a> by <a href="http://www.joomlapolis.com/index.php?option=com_content&amp;view=article&amp;id=18216&amp;Itemid=135">Pro/Dev Members</a>!</p>
+<p>This <strong>new add-on</strong> is a <strong>Joomla content plugin</strong> that lets you define replacement parameters and their values. The replacement parameters will be identified and replaced by their respective values when found in Joomla content. <strong>Regular expression</strong> replacements are also supported.</p>
+<p>This is a very efficiently written Joomla plugin that will really help you keep your content up to date.</p>
+<p>Here is two simple <strong>use case examples</strong> that demonstrate the <strong>power</strong> and <strong>usefulness</strong> of this new add-on:</p>
+<ol>
+<li>If you are referencing a product version in multiple locations of a Joomla article or in multile Joomla articles, just use your defined replacer string - e.g. {VERSION} instead of hardcoding the version number 1.0 everwhere - and <strong>define your replacer string</strong> as {VERSION} = 1.0. This way when a new version of your product is released all you have to do is update a single value in the replacer definition (see first replacement in image).<br /><br /></li>
+<li>You can also <strong>define a regex replacement</strong> to convert your example@gmail.com email addresses to example AT gmail DOT com (see second replacement in image).</li>
+</ol>
+<p>This new add-on does not require Community Builder. It is a Joomla 3.4+ compatible Joomla content plugin that you can install using the Joomla Extensions Manager and publis/configure from the Joomla Plugin manager.</p>
+<p>{kunena_discuss:233429}</p>]]></description>
+			<category>News</category>
+			<pubDate>Mon, 11 Apr 2016 20:58:50 +0000</pubDate>
+		</item>
+		<item>
+			<title>Joomla 3.5.1 released!</title>
+			<link>http://www.joomlapolis.com/news/18546-joomla-3-5-1-released</link>
+			<guid isPermaLink="true">http://www.joomlapolis.com/news/18546-joomla-3-5-1-released</guid>
+			<description><![CDATA[<p style="text-align: center;"><strong><img src="http://www.joomlapolis.com/images/jpnewsletter/jpn201604/joomla_releases_351.gif" alt="joomla releases 351" width="550" height="185" /></strong></p>
+<p style="text-align: center;"><strong>Joomla 3.5.1</strong> has been <a href="https://www.joomla.org/announcements/release-news/5655-joomla-3-5-1-released.html" target="_blank">released by the Joomla project</a>.</p>
+<p>Joomla 3.5.1 is a <strong>bug fixes release</strong> that fixes following <strong>Joomla 3.5 issues</strong>:</p>
+<ul>
+<li>Root URL sometimes returns empty</li>
+<li>Need to login twice when use session expires</li>
+<li>SMTP emails failing</li>
+<li>Session restarts caused PHP errors</li>
+<li>Fixed insertid function returning 0 for PDO MySQL driver</li>
+<li>Fixed Empty trash and unarchive button missing from com_banners</li>
+</ul>
+<p>These annoying bugs that were introduced in <a href="https://www.joomla.org/announcements/release-news/5654-joomla-3-5-is-here.html" target="_blank">Joomla 3.5</a> are now fixed. Check the <a href="https://docs.joomla.org/Category:Version_3.5.1_FAQ" target="_blank">Joomla 3.5.1 FAQ</a> page for known issues list.</p>
+<p>Community Builder 2.0.14 works just fine with this new Joomla release.</p>
+<p>{kunena_discuss:233428}</p>]]></description>
+			<category>News</category>
+			<pubDate>Sun, 10 Apr 2016 23:09:41 +0000</pubDate>
+		</item>
+		<item>
+			<title>A website story - part 1</title>
+			<link>http://www.joomlapolis.com/news/18545-a-website-story-part-1</link>
+			<guid isPermaLink="true">http://www.joomlapolis.com/news/18545-a-website-story-part-1</guid>
+			<description><![CDATA[<p><img style="margin-right: 15px; margin-bottom: 5px; float: left;" src="http://www.joomlapolis.com/images/stories/vertical-logo-dark-background-en.png" alt="vertical-logo-dark-background-en" width="331" height="275" />So you have an idea and you want to build a website.</p>
+<p>You discovered <a href="http://www.joomla.org" target="_blank">Joomla</a> and you are very happy that you can quickly create something nice with almost zero knowledge of HTML, Javascript, CSS, mySQL and other technical jargon.</p>
+<p>After playing around, reading <a href="https://docs.joomla.org/Main_Page" target="_blank">available documentation</a>, asking for help on the <a href="http://forum.joomla.org/" target="_blank">Joomla forums</a> and experimenting, you manage to create your site content and organize it in Joomla categories and articles. You have mastered the Joomla page concept with the creation of menus and have your site navigation just like you want it.</p>
+<p>You have also placed some cool modules on your pages to add more spice to your content layouts.</p>
+<p>So now you take two steps back and start thinking about the <strong>next steps</strong>.</p>
+<p>All the <strong>great content is in place</strong> and basically anyone can see it, but ... <strong>you have no idea who is actually looking at what</strong>.</p>
+<p>Well, you could use some analytics tools to get some information about your visitors, but <strong>you want more than some anonymous reports</strong> based on IP addresses.</p>
+<p>You want to <strong>engadge your audience</strong> and <strong>interact with your website readers</strong>. You want to find out who they are, what they like and dislike about your site, what they would want to see next. You want to address your content reader <strong>community</strong> at a more personal level.</p>
+<p style="text-align: center;"><a href="http://extensions.joomla.org/extensions/extension/clients-a-communities/communities/community-builder" target="_blank"><img src="http://www.joomlapolis.com/images/stories/cblogo-horz-color-1200x500p.png" alt="cblogo-horz-color-1200x500p" width="500" height="208" /></a></p>
+<p>After some research on the <strong>Joomla forums</strong> and the <strong>Joomla Extensions Directory</strong>, you discover the <a href="http://extensions.joomla.org/extensions/extension/clients-a-communities/communities/community-builder" target="_blank">Community Builder listing</a> page and check out the great reviews.</p>
+<p>You are getting really excited about the possibilities. You download the latest <a href="http://www.joomlapolis.com/index.php?option=com_content&amp;view=article&amp;id=12&amp;Itemid=2">Community Builder release</a> and <a href="https://www.youtube.com/watch?v=iAAYGJjkFuU&amp;list=PLp0puRITgC7PuyzPsMUECDI46VE7IFSAX&amp;index=1" target="_blank">install it</a> (video) on your Joomla site. You go through the <a href="http://www.joomlapolis.com/index.php?option=com_content&amp;view=category&amp;id=129&amp;Itemid=197">Getting Started</a> articles and grab the <a href="http://www.joomlapolis.com/component/docman/doc_details/801-cb-20-primer-book-105">CB Primer Book</a> pdf and start reading. While reading the book, you discover more <a href="https://www.youtube.com/playlist?list=PLp0puRITgC7PuyzPsMUECDI46VE7IFSAX" target="_blank">cool video tutorials</a> and spend some time watching and learning.</p>
+<p><strong>All of a sudden you realize that all of this is still free!</strong></p>
+<p>You create your new website <a href="http://www.joomlapolis.com/#">CB registration form</a> filled with extra fields that will help you learn more about your readers. First and last name fields, <a href="https://www.youtube.com/watch?v=1GvEsawIGKE&amp;list=PLp0puRITgC7PuyzPsMUECDI46VE7IFSAX&amp;index=17" target="_blank">a birthday field</a> (video), <a href="https://www.youtube.com/watch?v=C6_Vl01uUFk&amp;list=PLp0puRITgC7PuyzPsMUECDI46VE7IFSAX&amp;index=7" target="_blank">gender selector</a> (video), interest multiple choice field, country location text field are extremely easy to add. You can even mark individual fields as required. And of course you have email contact information for all your registered users. Your now <strong>named-users</strong> can <strong>login to your website</strong> and <strong>see all the information they gave</strong> during the registration process on their own <strong>CB user profile</strong> page. You can even ask for more information about your users on their profile pages and let them <a href="https://www.youtube.com/watch?v=6beb-6YUf_A&amp;list=PLp0puRITgC7PuyzPsMUECDI46VE7IFSAX&amp;index=9" target="_blank">upload their photo</a> (video) or even a <a href="https://www.youtube.com/watch?v=VUOCwpDwv6c&amp;list=PLp0puRITgC7PuyzPsMUECDI46VE7IFSAX&amp;index=18" target="_blank">CV file</a> (video).</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.joomlapolis.com/images/stories/userprofile.gif" alt="userprofile" width="500" height="362" /></p>
+<p>You can easily configure things so your users are activated <strong>only if they confirm their email address</strong> by clicking on a <a href="https://www.youtube.com/watch?v=z8HabZ14Yng&amp;list=PLp0puRITgC7PuyzPsMUECDI46VE7IFSAX&amp;index=3" target="_blank">confirmation link</a> (video) they get from your website.</p>
+<p><strong>Wow, you say - this is really cool!</strong></p>
+<p>You start thinking about your Joomla content and go back and update some of it so it is only available to logged in users. This gives people an <strong>incentive to register</strong>.</p>
+<p>What other incentives could you give?</p>
+<p>You go back to your CB Primer Book and discover the <strong>CB User list</strong> concept and start thinking. Why not make a nice <strong>list of already signed-up registered users</strong> and use it as a motivation incentive? So you create your first <a href="https://www.youtube.com/watch?v=y4adNTkNpGI&amp;list=PLp0puRITgC7PuyzPsMUECDI46VE7IFSAX&amp;index=4" target="_blank">CB User list</a> and make a new Joomla menu to it and make it public so your anonymous readers can see the list. But you are still <strong>keeping the CB User Profile pages private</strong> and only viewable to logged in users.</p>
+<p><a href="https://www.youtube.com/watch?v=y4adNTkNpGI&amp;list=PLp0puRITgC7PuyzPsMUECDI46VE7IFSAX&amp;index=4" target="_blank"><img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.joomlapolis.com/images/stories/userlist.gif" alt="userlist" width="500" height="418" /></a>Your website is now starting to l<strong>ook and feel much more engadging and interesting to your users</strong> and your brain is already thinking of ways to make things even more appealing.</p>
+<p>(end of part 1 - to be continued)</p>
+<p>{kunena_discuss:233361}</p>]]></description>
+			<category>News</category>
+			<pubDate>Sun, 03 Apr 2016 11:35:19 +0000</pubDate>
+		</item>
+	</channel>
+</rss>

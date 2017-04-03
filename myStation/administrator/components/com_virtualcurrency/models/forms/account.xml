@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset>
+
+        <field name="user_id" type="user"
+               label="COM_VIRTUALCURRENCY_USER"
+               description="COM_VIRTUALCURRENCY_USER_ACCOUNT_DESC"
+               required="true"
+                />
+
+        <field name="amount" type="text"
+               label="COM_VIRTUALCURRENCY_AMOUNT"
+               description="COM_VIRTUALCURRENCY_ACCOUNT_AMOUNT_DESC"
+               default="0"
+                />
+
+        <field name="currency_id" type="vccurrency"
+               label="COM_VIRTUALCURRENCY_CURRENCY"
+               description="COM_VIRTUALCURRENCY_CURRENCY_ACCOUNT_DESC"
+               filter="int"
+                />
+
+        <field name="note" type="textarea" class="input-xxlarge"
+               label="COM_VIRTUALCURRENCY_NOTE"
+               description="COM_VIRTUALCURRENCY_NOTE_DESC"
+               filter="trim"
+               rows="5"
+                />
+
+        <field name="id" type="text" default="0" label="JGLOBAL_FIELD_ID_LABEL"
+               readonly="true" class="readonly"
+               description="JGLOBAL_FIELD_ID_DESC"/>
+
+    </fieldset>
+</form>

@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+
+.navbar-inner ul li {
+	background: none !important;
+}
+
+.navbar-inner {
+	min-height: 30px !important;
+}
+
+.navbar .nav > li > a.disabled {
+    cursor: not-allowed;
+}
+
+.center {
+	text-align: center !important;
+}

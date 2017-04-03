@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.5.0">
+        <name>VideoWhisper Live Streaming</name> 
+        <author>VideoWhisper.com</author> 
+        <creationDate>2009-02</creationDate> 
+        <copyright>All rights reserved by VideoWhisper.com 2009.</copyright> 
+        <license>GPL</license> 
+        <authorEmail>videowhisper@gmail.com</authorEmail> 
+        <authorUrl>www.videowhisper.com</authorUrl> 
+        <version>1.0.0</version> 
+        <description>Provides list of live broadcasts. Requires VideoWhisper.com Live Streaming component for Joomla.</description>
+        <files>
+		<filename module="mod_videowhisperlivestreaming">mod_videowhisperlivestreaming.php</filename>
+                <filename>index.html</filename>
+				<filename>license/gpl.txt</filename>
+        </files>
+</extension>

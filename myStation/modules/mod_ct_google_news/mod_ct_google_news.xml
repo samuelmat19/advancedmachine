@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.0" client="site" method="upgrade">
+    <name>CT Google News</name>
+    <author>CSS Team Developer</author>
+    <creationDate>August 2015</creationDate>
+    <copyright>Copyright (C) 2015 CSS Team Developer. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+    <authorEmail>admin@cssteam.net</authorEmail>
+    <authorUrl>cssteam.net</authorUrl>
+    <version>1.0.0</version>
+    <description>
+        <![CDATA[
+        <div id="jml-module">
+            <h1 id="jml-module-name">CT Google News v1.0.0</h1>
+            <p id="jml-module-desc">
+                <strong>Thanks for Install this Module!</strong>
+            </p>
+            <ul id="jml-module-src">
+                <li>Visit our website <a href="http://cssteam.net">http://cssteam.net</a></li>
+                <li>or contact us <a href="mailto:admin@cssteam.net">admin@cssteam.net</a></li>
+                <li class="right">Copyright &copy; 2015 CSS Team Developer. All Rights Reserved</li>
+            </ul>
+        </div>
+        <style>
+            #jml-module {
+                margin: 0;
+                padding: 0;
+                font-family: "Arial";
+                font-weight: 100;
+                color: white;
+            }
+            #jml-module {
+                background: #555555;
+                margin-bottom: 50px;
+            }
+            #jml-module-name {
+                background: #222;
+                padding: 20px;
+                font-weight: 700;
+            }
+            #jml-module-desc {
+                padding: 20px;
+                line-height: 20px;
+            }
+            #jml-module-desc strong {
+                display: block;
+                font-size: 20px;
+                margin-bottom: 10px;
+                font-weight: 400;
+            }
+            #jml-module-src {
+                margin: 0;
+                padding: 0;
+                padding: 20px;
+                background: rgba(0,0,0,0.2);
+            }
+            #jml-module-src li {
+                margin: 0;
+                padding: 0;
+                display: inline;
+                list-style-type: none;
+                color: rgba(255,255,255,0.8);
+            }
+            #jml-module-src li a {
+                opacity: normal;
+                color: white;
+            }
+            #jml-module-src .right {
+                float: right;
+            }
+        </style>
+    ]]>
+    </description>
+    <files>
+        <filename module="mod_ct_google_news">mod_ct_google_news.php</filename>
+		<filename>mod_ct_google_news.xml</filename>
+        <filename>ctrssclass.php</filename>
+
+    </files>
+	
+	<config>
+	<fields name="params">
+		<fieldset name="basic">
+		    <field name="display_region" type="list" label="Choose Region" default="English (US)" description="Choose a spesific region" >
+                <option value="1">Google World News</option>
+                <option value="2">Google Australia News</option>
+                <option value="3">Google UK News</option>
+                <option value="4">Google New Zealand News</option>
+                <option value="5">Google France News</option>
+                <option value="6">Google India News</option>
+                <option value="7">Google Netherlands News</option>
+                <option value="8">Google Greece News</option>
+                <option value="9">Google Argentina News</option>
+                <option value="10">Google Deutschland News</option>
+                <option value="11">Google Russia News</option>
+                <option value="12">Google Italy News</option>
+                <option value="13">Google Spain News</option>
+                <option value="14">Google Belgium News</option>
+                <option value="15">Google Switzerland News</option>
+                <option value="16">Google Ireland News</option>
+                <option value="17">Google Portugal News</option>
+                <option value="18">Google Chinese (Simplified) News</option>
+                <option value="19">Google Venezuela News</option>
+                <option value="20">Google Sverige News</option>
+                <option value="21">Google Polska News</option>
+		    </field>
+            
+            <field name="display_cats" type="list" label="Choose Category" default="English (US)" description="Choose a spesific cateogry" >
+		        <option value="general" >General</option>
+                <option value="1">Sports</option>
+                <option value="2">Entertainment</option>
+                <option value="3">Business</option>
+                <option value="4">Health</option>
+                <option value="5">Science</option>
+                <option value="6">Technology</option>
+            </field>
+            
+            <field name="num" type="list" label="Number  of articles" default="English (US)" description="Select how many articles will be shown" >
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </field>
+
+            <field name="desc_appear" type="list" label="Description" default="English (US)" description="Choose if the description will be shown" >
+                <option value="0">Yes</option>
+                <option value="1">No</option>
+            </field>
+
+		</fieldset>
+        <fieldset name="advanced">
+        <field
+                    name="moduleclass_sfx"
+                    type="text"
+                    label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+                    description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+        </fieldset>
+	</fields>
+
+	</config>
+</extension>
